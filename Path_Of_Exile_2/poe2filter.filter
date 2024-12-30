@@ -1,0 +1,521 @@
+# Loot Effects - General
+
+Show
+  Class QuestItem
+  PlayEffect Green
+  SetFontSize 30
+  SetBorderColor 0 255 0
+  MinimapIcon 0 Green UpsideDownHouse
+
+Show
+  BaseType "Skill Gem"
+  PlayEffect Cyan
+  SetFontSize 30
+  SetTextColor 0 255 255
+  SetBorderColor 0 255 255
+  MinimapIcon 0 Cyan Kite
+
+Show
+  BaseType "Support Gem"
+  PlayEffect Cyan
+  SetFontSize 30
+  SetTextColor 100 200 255
+  SetBorderColor 100 200 255
+  MinimapIcon 0 Cyan Kite
+
+Show
+  BaseType "Spirit Gem"
+  PlayEffect Cyan
+  SetFontSize 30
+  SetTextColor 175 230 255
+  SetBorderColor 175 230 255
+  MinimapIcon 0 Cyan Kite
+
+Show
+ Class Jewel
+ Rarity Rare
+ PlayEffect Pink
+ SetFontSize 30
+ SetTextColor 255 255 119
+ SetBorderColor 254 128 222
+ MinimapIcon 0 Pink Kite
+
+Show
+ Class Jewel
+ Rarity Magic
+ PlayEffect Pink
+ SetFontSize 30
+ SetTextColor 135 136 255
+ SetBorderColor 254 128 222
+ MinimapIcon 0 Pink Kite
+
+Show
+ Class Jewel
+ Rarity Normal
+ PlayEffect Pink
+ SetFontSize 30
+ SetTextColor 200 200 200
+ SetBorderColor 254 128 222
+ MinimapIcon 0 Pink Kite
+
+Show
+  Rarity Unique
+  PlayEffect Orange
+  SetFontSize 30
+  SetTextColor 255 128 0
+  SetBorderColor 255 128 0
+  MinimapIcon 0 Orange Star
+
+Show
+  Rarity Rare
+  PlayEffect Yellow
+  SetFontSize 30
+  SetBorderColor 255 255 119
+  SetTextColor 255 255 119
+  MinimapIcon 0 Yellow Star
+
+Show
+  Rarity Magic
+  SetFontSize 30
+  SetTextColor 135 136 255
+  SetBorderColor 135 136 255
+  MinimapIcon 0 Blue Star
+
+Show
+  Sockets 1
+  SetFontSize 30
+  SetTextColor 200 200 200
+  SetBorderColor 200 200 200
+  MinimapIcon 1 White Pentagon
+
+Show
+  Sockets 2
+  SetFontSize 30
+  SetTextColor 200 200 200
+  SetBorderColor 200 200 200
+  MinimapIcon 1 White Pentagon
+
+Show
+  Sockets 3
+  SetFontSize 30
+  SetTextColor 200 200 200
+  SetBorderColor 200 200 200
+  MinimapIcon 1 White Pentagon
+
+Show
+  Class == "Body Armour" "Boots" "Gloves" "Helmets" "Bows" "Crossbows" "Foci" "One Hand Maces" "Quivers" "Quarterstaves" "Sceptres" "Shields" "Staves" "Two Hand Maces" "Wands"
+  Rarity <= Normal
+  SetFontSize 30
+  SetBorderColor 200 200 200
+  SetTextColor 200 200 200
+
+Show
+  Class "Amulet" "Ring" "Belt"
+  Rarity <= Normal
+  SetFontSize 30
+  SetBorderColor 200 200 200
+  SetTextColor 200 200 200
+
+# Loot Effects - Waystones
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 12
+  PlayEffect Purple
+  SetFontSize 30
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 8
+  PlayEffect Yellow
+  SetFontSize 30
+
+Show
+  BaseType "Waystone"
+  WaystoneTier > 4
+  PlayEffect Blue
+  SetFontSize 30
+
+Show
+  BaseType "Waystone"
+  WaystoneTier >= 1
+  PlayEffect White
+  SetFontSize 30
+
+# Loot Effects - Precursor
+
+Show
+  BaseType "Precursor Tablet"
+  PlayEffect Orange
+  SetFontSize 30
+  SetBorderColor 150 0 0
+  SetTextColor 150 0 0
+
+# Loot Effects - Currency
+
+Show
+  Class "Stackable Currency"
+  BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb"
+  PlayEffect Orange
+  SetFontSize 30
+  SetBorderColor 184 218 242
+  SetTextColor 255 128 0
+  MinimapIcon 2 Orange Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType == "Greater Jeweller's Orb" "Divine Orb"
+  PlayEffect Pink
+  SetFontSize 30
+ SetTextColor 255 128 220
+  SetBorderColor 184 218 242
+  MinimapIcon 2 Pink Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType == "Exalted Orb"
+  PlayEffect Yellow
+  SetFontSize 30
+  SetTextColor 255 255 0
+  SetBorderColor 184 218 242
+  MinimapIcon 2 Yellow Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType "Orb of Annulment" "Chaos Orb" "Orb of Alchemy" "Gemcutter's Prism" "Orb of Chance"
+  PlayEffect Cyan
+  SetFontSize 30
+  SetTextColor 0 255 255
+  SetBorderColor 184 218 242
+  MinimapIcon 2 Cyan Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType "Regal Orb" "Vaal Orb" "Artificer's Orb" "Glassblower's Bauble" "Lesser Jeweller's Orb"
+  PlayEffect Blue
+  SetFontSize 30
+  SetTextColor 135 136 255
+  SetBorderColor 184 218 242
+  MinimapIcon 2 Blue Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Arcanist's Etcher" "Orb of Transmutation" "Orb of Augmentation"
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+  MinimapIcon 2 White Circle
+
+Show
+  Class "Stackable Currency"
+  BaseType "Transmutation Shard" "Regal Shard" "Chance Shard" "Artificer's Shard" "Scroll of Wisdom"
+  SetFontSize 30
+  SetTextColor 200 200 200
+  SetBorderColor 184 218 242
+  MinimapIcon 2 Grey Circle
+
+Show
+  Class "Socketable"
+  BaseType "Rune"
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+  MinimapIcon 2 White Circle
+
+# Loot Effects - Trials
+
+Show
+  BaseType == "Djinn Barya" "Inscribed Ultimatum"
+  PlayEffect Red
+  SetFontSize 30
+  SetTextColor 255 0 0
+  SetBorderColor 255 0 0
+  MinimapIcon 2 Red Circle
+
+# Loot Effects - Sanctum
+
+Show
+  BaseType "Gold Key"
+  PlayEffect Yellow
+  SetFontSize 30
+  SetTextColor 255 255 0
+  SetBorderColor 255 255 0
+
+Show
+  BaseType "Silver Key"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 200 200 200
+  SetBorderColor 200 200 200
+
+Show
+  BaseType "Bronze Key"
+  PlayEffect Brown
+  SetFontSize 30
+  SetTextColor 180 96 0
+  SetBorderColor 180 96 0
+
+# Loot Effects - Delerium
+
+Show
+  Class Currency
+  BaseType == "Distilled Isolation" "Simulacrum" "Distilled Suffering"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Distilled Fear"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Distilled Despair" "Distilled Disgust"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Distilled Envy" "Distilled Paranoia"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Distilled Greed" "Simulacrum Splinter" "Distilled Guilt" "Distilled Ire"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType "Distilled" # Safety Catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+# Loot Effects - Breach
+
+Show
+  Class Currency
+  BaseType == "Breachstone"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Rings
+  BaseType == "Breach Ring"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Esh's Catalyst" "Neural Catalyst" "Reaver Catalyst" "Chayula's Catalyst" "Tul's Catalyst" "Xoph's Catalyst" "Breach Splinter"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType == "Adaptive Catalyst" "Flesh Catalyst" "Skittering Catalyst" "Sibilant Catalyst" "Uul-Netol's Catalyst" "Carapace Catalyst"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class Currency
+  BaseType "Catalyst" # Safety Catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+# Loot Effects - Fragments
+
+Show
+  BaseType == "An Audience with the King"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  BaseType == "Deadly Fate" "Cowardly Fate" "Victorious Fate"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  BaseType "Fragment" # Specific fragments can't seem to be added; just adding this catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+# Loot Effects - Expedition
+
+Show
+  Class == "Expedition Logbooks"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class == "Currency"
+  BaseType "Exotic Coinage"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+Show
+  Class "Currency"
+  BaseType "Artifact"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+
+# Loot Effects - Essence
+
+Show
+  BaseType == "Greater Essence of Torment" "Greater Essence of Haste" "Greater Essence of Ruin"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  BaseType == "Greater Essence of Sorcery" "Greater Essence of Electricity" "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of the Mind" "Greater Essence of the Body" "Greater Essence of Battle" "Greater Essence of the Infinite"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  BaseType == "Essence of Torment" "Essence of Ruin" "Essence of Haste"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  BaseType == "Essence of Sorcery" "Essence of Electricity" "Essence of Enhancement" "Essence of Flames" "Essence of Ice" "Essence of the Mind" "Essence of the Body" "Essence of Battle" "Essence of the Infinite"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  BaseType "Essence" # Safety Catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+# Loot Effects - Omens
+
+Show
+  Class "Omen"
+  BaseType == "Omen of Whittling" "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Omen"
+  BaseType == "Omen of Amelioration" "Omen of Corruption"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Omen"
+  BaseType == "Omen of Greater Annulment" "Omen of Resurgence" "Omen of Sinistral Exaltation" "Omen of Dextral Exaltation" "Omen of Greater Exaltation" "Omen of Sinistral Alchemy" "Omen of Refreshment" "Omen of Dextral Alchemy" "Omen of Sinistral Coronation"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Omen"
+  BaseType == "Omen of Dextral Coronation"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Omen" # Safety Catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+# Loot Effects - Soul Cores
+
+Show
+  Class "Socketable"
+  BaseType == "Soul Core of Azcapa" "Soul Core of Zalatl"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Socketable"
+  BaseType == "Soul Core of Citaqualotl" "Soul Core of Tacati"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Socketable"
+  BaseType == "Soul Core of Jiquani" "Soul Core of Puhuarte"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Socketable"
+  BaseType == "Soul Core of Opiloti" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zantipi"
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+Show
+  Class "Socketable"
+  BaseType "Soul Core" # Safety Catch-all
+  PlayEffect White
+  SetFontSize 30
+  SetTextColor 184 218 242
+  SetBorderColor 184 218 242
+
+# Loot Effects - Global
+
+Show
+  SetFontSize 30
