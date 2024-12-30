@@ -47,4 +47,8 @@
         "mod_name": "CreatureMod",
         "mod_enabled": true
     }
+    {
+        "mod_name": "GroundedCheats",
+        "mod_enabled": true
+    }
 ]
